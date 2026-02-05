@@ -1617,7 +1617,8 @@ body {
     max-height: 350px;
     padding: 25px;
     border-radius: 20px;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .foco_texto_scroll {
@@ -1683,14 +1684,14 @@ body {
 
   .especialista_subtitulo {
     font-size: 14px;
-    padding: 0 10px;
+    padding: 0 2rem;
     line-height: 1.6;
   }
 
   .especialidades {
     flex-direction: column;
     gap: 25px;
-    width: 100%;
+    width: 80%;
     padding: 0 20px;
   }
 
@@ -1741,6 +1742,7 @@ body {
     padding: 30px 20px 150px 20px;
     gap: 22px;
     order: 2;
+    align-items: center;
   }
 
   .treinamento_titulo {
@@ -1752,7 +1754,7 @@ body {
 
   .treinamento_box_destaque {
     position: static;
-    width: 100%;
+    width: 80%;
     margin: 0;
     padding: 20px 25px;
     border-radius: 18px;
@@ -1766,9 +1768,10 @@ body {
   }
 
   .treinamento_lista {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     gap: 16px;
+    width: 80%;
   }
 
   .treinamento_lista li {
@@ -1783,6 +1786,7 @@ body {
     gap: 25px;
     margin: 0;
     justify-content: space-between;
+    padding-bottom: 6rem;
   }
 
   .icone_item {
@@ -1841,9 +1845,10 @@ body {
   }
 
   .rodape_botao {
-    width: 100%;
+    width: 60%;
     padding: 13px 25px;
     font-size: 12px;
+    text-align: center;
   }
 
   /* FOTOS */
